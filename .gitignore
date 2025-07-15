@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# === Custom Exclusions for Descriptive Stats Project ===
+
+# Do not commit datasets
+*.csv
+*.tsv
+*.xlsx
+*.xls
+
+# Exclude generated visualizations
+*.png
+*.jpg
+*.jpeg
+figures/
+plots/
+
+# Exclude saved outputs or temporary analysis
+*.pdf
+*.html
+*.ipynb
+outputs/
+temp/
