@@ -50,7 +50,7 @@ Place the downloaded CSV files in the respective `airbnb/` and `netflix/` folder
 
 1. **Install required packages** (if not already installed):
 
-```bash
+---
 pip install pandas polars matplotlib seaborn
 Run Analysis Scripts:
 
